@@ -1,0 +1,10 @@
+STORE “count” to 1
+
+WHILE “count” < 11
+    DISPLAY “count”
+    CALCULATE “count” mod 2
+    STORE “remainder” to the result of calculation
+    IF “remainder” equals to 0
+        DISPLAY “EVEN!”
+    ELSE
+        DISPLAY “ODD!"
